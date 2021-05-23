@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
+    
     font-family: 'PT Sans', sans-serif;
   }
   
@@ -42,6 +44,27 @@
     color: #fff;
     font-size: 100px;
   }
+ 
+  @media screen and (max-width: 960px) {
+    .home,
+    .services,
+    .products,
+    .sign-up  {
+      font-size: 70px;
+
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home,
+    .services,
+    .products,
+    .sign-up  {
+      font-size: 50px;
+
+    }
+  }
+  
   /* ::-moz-selection { background: yellow; } */
   ::selection { background: rgb(26, 51, 46); }
 
