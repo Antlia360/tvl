@@ -4,6 +4,8 @@
     padding: 0;
     text-align: center;
     font-family: 'PT Sans', sans-serif;
+    /* overflow-x: hidden; */
+ 
   }
   
   .home,
